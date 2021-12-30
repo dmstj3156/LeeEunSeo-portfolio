@@ -1,0 +1,53 @@
+#gnb {
+    
+    position:fixed;
+    right: -300px;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    background-color:var(--main-color);
+    box-shadow:1px 2px 2px rgb(88, 88, 88) ;
+    padding-top: 100px;
+    
+    transition: 0.4s;
+  }
+  #gnb.show {
+    right: 100px;
+     display: block;
+  }
+  #toggle{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    
+  }
+  
+  #toggle:hover{
+    
+  }
+  #gnb .btn_close {
+   
+    position: absolute;
+    right: 30px;
+    top: 52px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: var(--main-color);
+    
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    color: #707070;
+}
+#bg{
+    max-width: 767px;
+    overflow: hidden;
+}
