@@ -1,6 +1,6 @@
 
   body{
-    
+    position: relative;
     max-width: 767px;
     overflow: hidden;
   }
@@ -9,14 +9,14 @@
       position: relative;
       overflow: hidden;
       height: 70px;
-      max-width: 767px;
+     max-width: 767px;
       z-index: 999;
       border: none;
       background-color: rgba(30,91,183,0.9);
-      
+      margin: 0 auto;
     }
   header .header-container {
-      
+    position: relative;
         width: 305px;
         margin: 0 auto;
         
@@ -25,9 +25,9 @@
     }
     header .menu-container{
       /*outline: 1px solid rgb(255, 63, 63); */
-      position: relative;
+      position: absolute;
       width: 305px;
-      margin: 0 auto;
+      margin-top: 65px;
       
     }
     header  h1.logo{
@@ -66,7 +66,7 @@
        top: 10px;
        width: 50px;
        height: 50px;
-       
+       display: none;
        background-color: none;
        
        border-radius: 50%;
@@ -83,14 +83,15 @@
  .gnb{
       position:fixed;
       overflow: hidden;
-      top: -400px;
-    max-width: 767px;
+      top: 0px;
+      max-width: 767px;
+      z-index: 999;
       height: 160px;
-     z-index: 999;
-      margin: 0 auto;
+     
       padding-top: 70px;
       left: 0;
       transition: 0.4s;
+      display: block;
     }
     
   .depth1{
@@ -105,13 +106,13 @@
       overflow: hidden;
   }
   .depth1 li{
-    
-    margin: 10px;
+    margin-top: 10px;
+     margin-bottom: 10px;
   }
   .depth1 a{
       text-transform: uppercase;
       color: #fff;
-     margin: 6px;
+     margin: 11px;
   }
   .depth1 a:hover{
       color: var(--sub2-color);
