@@ -357,7 +357,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    margin: 0 auto;
 }
 
 .banner .banner-container .explain{
@@ -368,7 +368,8 @@
    font-weight: lighter;
    text-align: center;
    text-shadow: 1px 3px 4px #070707;
-   width: 355px;
+  width: 305px;
+  margin: 35px;
    font-size: 14px;
 }
 
