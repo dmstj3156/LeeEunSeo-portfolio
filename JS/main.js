@@ -1,12 +1,14 @@
 //nav toggle
 $(function(){
-    $('#toggle').on('click', function(){
-      $('#gnb').addClass('show');
+    $('.btn_open').on('click', function(){
+      $('.gnb ').addClass('show');
+      $('.btn_open').hide();
   });
   
   // 메인메뉴 닫기
   $('.btn_close').on('click', function(){
-      $('#gnb').removeClass('show');
+      $('.gnb').removeClass('show');
+      $('.btn_open').show();
   });
   
   // PC화면으로 넘어가면 모바일 메뉴 닫기

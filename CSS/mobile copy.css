@@ -1,53 +1,57 @@
 
   body{
-    
-    max-width: 767px;
     overflow: hidden;
   }
-  
   header {
       position: relative;
-      overflow: hidden;
+      
       height: 70px;
-      max-width: 767px;
+      max-width: 768px;
       z-index: 999;
       border: none;
-      background-color: rgba(30,91,183,0.9);
-      
+      background-color: rgba(30,91,183,0);
+      overflow: hidden;
     }
-  header .header-container {
-      
-        width: 305px;
+  header > .header-container {
+       /*outline: 1px solid rgb(0, 0, 0); */
+        max-width: 768px;
         margin: 0 auto;
-        
+        display: flex;
         align-items: center;
      
     }
-    header .menu-container{
-      /*outline: 1px solid rgb(255, 63, 63); */
-      position: relative;
-      width: 305px;
-      margin: 0 auto;
-      
-    }
     header  h1.logo{
-     margin-top: 10px;
-      text-align: center;
      
-      /*outline: 1px solid rgb(0, 0, 0); */
+      outline: 1px solid rgb(0, 0, 0); 
      
     }
   header  h1.logo > a > img{
       width: 120px;
       height: 47px;
     }
-  
+  .gnb.show {
+     top: 0px;
+        display: block;
+        width: 100%;
+     }
+  .gnb{
+       position:fixed;
+       overflow: hidden;
+       top: -400px;
+      max-width: 768px;
+       height: 360px;
+       background-color:rgba(30,91,183,0.6);
+       margin: 0 auto;
+       padding-top: 70px;
+      
+       transition: 0.4s;
+     }
      .btn_open{
       position: absolute;
-       right: 0;
-       top: 15px;
-       width: 35px;
-       height: 35px;
+       right: 35px;
+       top: 10px;
+       width: 50px;
+       height: 50px;
        display: block;
        background-color: none;
        
@@ -55,14 +59,13 @@
        cursor: pointer;
        font-size: 40px;
        color: #ffffff;
-       display: none;
      }
      
    
      .gnb .btn_close {
        display: block;
        position: absolute;
-       right: 35px;
+       right: 0;
        top: 10px;
        width: 50px;
        height: 50px;
@@ -74,80 +77,60 @@
        font-size: 40px;
        color: #ffffff;
    }
-  
-   .gnb.show {
-    top: 0px;
-       display: block;
-       max-width: 767px;
-    }
- .gnb{
-      position:fixed;
-      overflow: hidden;
-      top: -400px;
-    max-width: 767px;
-      height: 160px;
-     z-index: 999;
-      margin: 0 auto;
-      padding-top: 70px;
-      left: 0;
-      transition: 0.4s;
-    }
-    
+   
   .depth1{
-     position: relative;
-      display: flex;
+      display: block;
       margin-top: 6px;
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
-    width: 100%;
-      margin: 0 auto;
-      background-color:rgba(30,91,183,0.6);
-      overflow: hidden;
+      max-width: 768px;
   }
   .depth1 li{
-    
-    margin: 10px;
+    width: 100%;
+    margin: 20px;
   }
   .depth1 a{
       text-transform: uppercase;
       color: #fff;
-     margin: 6px;
+      margin: 15px;
   }
   .depth1 a:hover{
       color: var(--sub2-color);
   }
   
   #main{
-    position: relative;
-    max-width: 767px;
-    margin: 0 auto;
-      height: 670px;
+      
+      max-width: 768px;
       overflow: hidden;
-     /* outline: 1px solid rgb(100, 255, 147); */
-    
+      height: 600px;
+      background-color: var(--main-color);
+     
+      
   }
   #bg{
       /*풀스크린*/
-      position: absolute;
-      z-index: -100;
-      left: 0;
-      top: -300px;
-      overflow: hidden;
-     
-      /* 비디오가 재생불가시 대체 이미지*/
-      background-image: url(./poster.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment:none;
-    
+     /*풀스크린*/
+     display: none;
+     position: fixed;
+     z-index: -100;
+     left: 0;
+     top: -450px;
+     object-fit: cover;
+     max-width: 768px;
+     height: 600px;
+     /* 비디오가 재생불가시 대체 이미지*/
+     background-image: url(./poster.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment:none;
+      background-position: center center;
   }
   
   .main-visual{
       /* outline: 1px solid #999; */
-      
-     
       width: 305px;
+     
       margin: 0 auto;
   }
   .main-visual .title{
@@ -155,9 +138,8 @@
       text-align: center;
       position: absolute;
       font-weight: bold;
-      top: calc(50% - 370px/2);
-      width: 305px;
-      /*outline: 1px solid #999; */
+      top: calc(50% - 400px/2);
+      
   }
   .main-visual .title a{
       color: #ffffff;
@@ -247,7 +229,7 @@
   }
   #s1{
       position: relative;
-      max-width:767px ;
+      max-width:768px ;
       height: 1110px;
       background-color: var(--sub-color);
       color: #070707;
@@ -349,7 +331,7 @@
       margin-top: 10px;
   }
   .banner{
-    max-width: 767px;
+    max-width: 768px;
     height: 510px;
     background-image: url(../images/banner\ \(1\).jpg);
     background-position:top;

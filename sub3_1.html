@@ -27,33 +27,29 @@
 
     <!--fancybox JS-->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-   
+     <!-- 이미지 로드 채크 플러그인 -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <!--이미지 필터 JS-->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <!--pie-chart JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script> 
 </head>
-<body id="main">
+<body id="sub3_1">
   <!--<div id="icon-loding"><i class="fa fa-spinner fa-spin fa-2x"></i></div>-->
   <!-- 이미지가 로딩되는 영역 -->    
   <!--<section id="content"></section>section_content end-->
     <header id="mainheader">
       <div class="header-container">
-      <div class="menu-container">
-        <div>
-          <button class="btn_open">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-          </button>
-      </div>
+        <button id="toggle">
+          <img src="./images/Icon feather-menu.svg" alt="menu">
+        </button>
         <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
-      </div>
         <nav class="gnb">
-          
-          <div>
-            <button class="btn_close">
-              <i class="fa fa-times" aria-hidden="true"></i>
+          <div class="close-menu">
+            <button class="btn-close">
+              <img src="./images/Icon material-close.svg" alt="close">
             </button>
-        </div>
+          </div><!--close-menu-->
           <ul class="depth1">
             <li class="d1"><a href="./main.html">home</a></li>
             <li class="d1"><a href="#s1">about</a></li>
@@ -62,112 +58,12 @@
             <li class="d1"><a href="https://drive.google.com/file/d/1blz68HnqlHNgd6INzLEO-FTMNNO6ED76/view?usp=sharing" target="_blank">portfolio</a></li>
           </ul>
         </nav><!--gnb-->
-        
       </div><!--div.container-->
     </header>
    
-    <section class="main" id="main">
-     
-    <video id="bg" autoplay loop src="./images/video (2).mp4"></video>
-    
-    <div class="main-visual">
-      <div class="title">
-        <a href="./main.html"><i class="fa fa-music" aria-hidden="true"></i></a>
-        <p class="sub-title">Web Publisher</p>
-        <h1 id="main-title" class="stroke">PORTFOLIO</h1>
-        <audio id="player" src="./Free Corporate Background Music.mp3"></audio>
-        <div class="bgm">
-          <button onclick="document.getElementById('player').volume += 0.1"><i class="fa fa-plus" aria-hidden="true"></i></button>
-          <button onclick="document.getElementById('player').play()"><i class="fa fa-play bgm" aria-hidden="true" ></i></button>
-          <button onclick="document.getElementById('player').pause()"><i class="fa fa-stop" aria-hidden="true"></i></button>
-          <button onclick="document.getElementById('player').volume -= 0.1"><i class="fa fa-minus" aria-hidden="true"></i></button>
-          
-        </div><!--bgm-->
-        <div class="scroll">
-          <h1 class="scroll-group">
-          <i class="fa fa-angle-double-down faa-bounce animated" aria-hidden="true"> <img src="./images/Icon material-mouse.png" alt=""></i>
-        </h1>
-        </div><!--scroll-->
-      </div><!--title-->
-    </div><!--main-visual-->
-    
-    </section><!--main-->
-   
-    <section id="s1">
-     
-      <div class="container" >
-        <div class="section-title" >
-        <h2 class="main-title">about</h2>
-        <p class="border">✱</p>
-        </div><!--section-title-->
-          <h3 class="profile-title">profile</h3>
-            <div class="profile" >
-              <div class="col">
-                <img src="./images/Icon ionic-md-person-add.png" alt="">
-                  <p>1998.01.22</p>
-                  <p>이은서(Lee Eun Seo)</p>
-              </div><!--col-->
-              <div class="col">
-                <a href="tel:+82)010-2526-5140">
-                <img src="./images/Icon awesome-phone-alt.png" alt="">
-                  <p><strong>phone</strong></p>
-                  <p> 010-2526-5140</p>
-                </a>
-              </div><!--col-->
-              <div class="col">
-                <a href="mailto:dmstj3156@naver.com">
-                <img src="./images/Icon zocial-email.png" alt="">
-                  <p><strong>e-mail</strong></p>
-                  <p> dmstj3156@naver.com</p>
-                </a>
-              </div><!--col-->
-            </div><!--profile--> 
-          <h3 class="skill-title">skills & tools</h3>
-            <div class="skill">
-              <ul id="chart">
-                <li><div class="chart1" data-percent="85"><span>HTML</span></div></li>
-                <li><div class="chart2" data-percent="80"><span>CSS</span></div></li>
-                <li><div class="chart3" data-percent="65"><span>JavaScript</span></div></li>
-                <li><div class="chart4" data-percent="65"><span>JQuery</span></div></li>
-              </ul>
-            </div><!--skill-->
-            <div class="tools">
-              <div class="tools-col">
-                <img src="./images/skill-photoshop.png" alt="Photoshop">
-                  <p>Photoshop</p>   
-              </div><!--col1-->
-              <div class="tools-col">
-                <img src="./images/tools-illustrator.png" alt="illustrator">
-                  <p>Illustrator</p>   
-              </div><!--col1-->
-              <div class="tools-col">
-                <img src="./images/adobe xd-icon.png" alt="xd">
-                  <p>Adobe XD</p>   
-              </div><!--col1-->
-              <div class="tools-col">
-                <img src="./images/vscode-icon.png" alt="vscode">
-                  <p>VS Code</p>   
-              </div><!--col1-->
-              <div class="tools-col">
-                <img src="./images/github-icon.png" alt="github">
-                  <p>Github</p>   
-              </div><!--col1-->
-            </div><!--tools-->
-          </section> 
-      </div><!--container-->
-      <section id="banner" class="banner">
-        <div class="banner-container">
-        <p class="explain">
-          <strong> "tire<ins>les</ins>s, daunt<ins>les</ins>s, bound<ins>les</ins>s" <br></strong>
-          안녕하세요. 신입 웹퍼블리셔 이은서입니다. 
-          <br> 사회복지과를 전공한 덕분에 사회의 다양한 문제들에 대해 관심을 가지게 되면서 ui/ux의 중요성에 대해 알게 되었습니다. <br>
-           이는 웹퍼블리싱에 대해 관심을 가지고 새로운 도전을 하게 해 준 계기가 되어주었습니다. <br> UI/UX를 고려해 웹접근성을 높혀 다양한 사람들이
-           보다 더 많은 정보들을 쉽게 접할 수 있도록 전문성을 갖추기 위해 계속해서 공부하며 노력해 나가고 있습니다. <br>
-           새로운 것을 배우고 도전해나가는 것에 지치지 않고 두려워하지 않는, 무한한 가능성을 가진 웹퍼블리셔입니다.
-        </p>
-      </div><!--container-->
-      </section>
   
+   
+   
 
     <section id="s2" >
      
@@ -293,27 +189,7 @@
       </div><!--container-->
     </section>
 
-    <section id="s3">
-     
-      <div class="container">
-        <div class="section-title">
-          <h2 class="main-title">design</h2>
-          <p class="border">✱</p>
-          <h3 class="sub-title">포스터 | 배너 | 아이콘</h3>
-          <p class="explain"></p>Photoshop,Illustrator 툴을 사용해 <br>
-          만들어 낸 디자인 작품들입니다.</p>
-          <p class="guide">※ 이미지를 클릭하시면 크게 보실 수 있습니다.</p>
-          
-        </div><!--section-title-->
-        <div class="gallery">
-          <a href="./images/파지티브 포스터.png" data-fancybox="gallery"><img src="./images/파지티브 포스터.png"  class="fancybox"></a>
-          <a href="./images/쿠캣 포스터.png" data-fancybox="gallery"><img src="./images/쿠캣 포스터.png"  class="fancybox"></a>
-          <a href="./images/용기내 포스터.png" data-fancybox="gallery"><img src="./images/용기내 포스터.png"  class="fancybox"></a>
-          <a href="./images/아이콘.png" data-fancybox="gallery"><img src="./images/아이콘.png" class="fancybox"></a>
-          <a href="./images/아이콘1.png" data-fancybox="gallery"><img src="./images/아이콘1.png"  class="fancybox"></a>
-        </div><!--gallery-->
-      </div><!--container-->
-    </section>
+   
    
     
     <footer>
