@@ -16,6 +16,7 @@
    
   header{
       position: relative;
+      
       width: 100%;
       padding: 0 35px;
       height: 70px;
@@ -120,7 +121,7 @@
     position: relative;
     width: 100%;
     margin-top:0px;
-    
+    overflow: hidden;
 }
 #s2 .filter-list{
     width: 340px;
