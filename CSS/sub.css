@@ -311,14 +311,14 @@
     }
     .banner  .banner-container{
         width: 1440px;
-        margin: 0 auto;
+        
         
     }
    .banner .banner-container .explain{
         line-height: 35px;
         color: #fff;
        padding-top: 40px;
-       padding-left: 30px;
+      width: 305px;
        font-weight: lighter;
        text-align: center;
        text-shadow: 1px 3px 4px #070707;
