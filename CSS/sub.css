@@ -327,15 +327,12 @@
     #s2{
         position: relative;
         width: 100%;
-        height: 1025px;
+       
         background-color: var(--sub-color);
         color: #070707;
         
     }
-    #sub3_1 #s2{
-        padding-top: 100px;
-        height: 1135px;
-    }
+    
     #s2 .guide{
         font-size: 13px;
         color: var(--main-color);
@@ -454,13 +451,16 @@
         line-height: 24px;
         padding-bottom: 10px;
         }
-      .box .line a{
+        .box .line a{
+            color: white;
+        }
+      .box .line a.view {
           color: var(--sub2-color);
           padding-top: 20px;
           font-size: 14px;
       }
       .box .line .view{
-
+        color: var(--sub2-color);
         }
      #s2 .grid .grid-item.individual{
        
@@ -468,7 +468,7 @@
      #s3{
         position: relative;
         width: 100%;
-        height: 1070px;
+        
         background-color: var(--sub-color);
         color: #070707;
     }
@@ -535,3 +535,4 @@
     bottom: 30px;
     display: block;
 }   
+
