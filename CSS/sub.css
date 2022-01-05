@@ -351,7 +351,7 @@
        
     }
     #s2  button{
-        width: 170px;
+        width: 160px;
         padding: 5px;
         font-size: 16px;
         border: 1px solid var(--main-color);
@@ -366,9 +366,9 @@
 
     }
     #s2  #all{
-        font-size: 19px;
+        font-size: 16px;
         padding: 5px;
-        width: 150px;
+        width: 160px;
     }
     #s2  button:hover{
         background-color: var(--main-color);
