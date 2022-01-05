@@ -133,7 +133,7 @@
 #main{
    
    width: 100%;
-    height: 670px;
+    height: 100vh;
     
     
     
@@ -149,7 +149,7 @@
     top: 0px;
     object-fit: cover;
     max-width: 768px;
-    height: 670px;
+    height: 100%;
     /* 비디오가 재생불가시 대체 이미지*/
     background-image: url(./poster.jpg);
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@ button{
   #s1{
       position: relative;
       max-width:767px ;
-      height: 1142px;
+      height: 1108px;
       background-color: var(--sub-color);
       color: #070707;
       
@@ -293,7 +293,7 @@ button{
      
       margin: 0 auto;
      /* outline: 1px solid #1E5BB7;*/
-      font-size: 5px;
+      font-size: 10px;
      
   }
   #s1 .container  .profile .col:last-child{
@@ -314,6 +314,7 @@ button{
   }
   #s1 .container  .profile .col a{
       color: #070707;
+      
   }
   #s1 .container .skill-title{
       font-size: 24px;
@@ -421,7 +422,7 @@ button{
   }
   footer .container .portfolio{
       padding-top: 20px;
-      font-size: 6px;
+      font-size: 10px;
       padding-bottom: 80px;
   }
   footer .container .thanks{
@@ -430,11 +431,11 @@ button{
       padding-bottom: 60px;
   }
   footer .container .contact{
-      font-size: 6px;
+      font-size: 10px;
       padding-bottom: 5px;
   }
   footer .container .copy{
-      font-size: 2px;
+      font-size: 7px;
       font-weight: 300;
   }
   *,
