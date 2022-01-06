@@ -8,7 +8,7 @@
             <li><a href="">목차</a></li>
             <li><a href="">링크</a></li>
                 <ul>
-                    <li><a href=https://dmstj3156.github.io/LeeEunSeo-portfolio/">VIEW</a></li>     
+                    <li><a href="https://dmstj3156.github.io/LeeEunSeo-portfolio/">VIEW</a></li>     
                 </ul
             <li><a href="">Page</a></li>
                 <ul>
