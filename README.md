@@ -9,8 +9,7 @@
             <li><a href="">링크</a></li>
                 <ul>
                     <li><a href=https://dmstj3156.github.io/LeeEunSeo-portfolio/">VIEW</a></li>     
-                </ul>
-           
+                </ul
             <li><a href="">Page</a></li>
                 <ul>
                   <li>main, sub, sub3_1, sub4_1</li> 
@@ -34,15 +33,12 @@
                         <ul>
                             <li>PC <br><img src="./images/index screenshot_.jpg" alt=""></li>
                             <li><img src="./images/main screenshot.png" alt=""></li>
-                            <li>Mobile <br><img src="./images/mobile screenshot.png" alt=""></li>
-                            
+                            <li>Mobile <br><img src="./images/mobile screenshot.png" alt=""></li>                           
                         </ul>
                     <li>업데이트</li>
                         <ul>
-                            <li>제작기간 : 2021.12.28 ~ 2022.01.04</li>
-                            
+                            <li>제작기간 : 2021.12.28 ~ 2022.01.04</li>                       
                         </ul>
-                </ul>
-            
+                      </ul>
         </ul>
     </ul>
