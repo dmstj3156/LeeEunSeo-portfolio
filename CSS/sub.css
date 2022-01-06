@@ -474,7 +474,7 @@
     }
     #sub4_1 #s3{
         padding-top: 100px;
-        height: 1170px;
+        
     }
     #s3 .guide{
         font-size: 13px;
@@ -536,3 +536,58 @@
     display: block;
 }   
 
+@media (min-width: 992px) and (max-width: 1440px) {
+    /*태블릿 기로*/
+    body{
+        font-family: 'Noto Sans KR', sans-serif;
+       
+        min-width: 1440px;
+        position: relative;
+        
+        
+       }
+    #main header > .header-container {
+        /* outline: 1px solid #999; */
+        display: flex;
+        padding: 0;
+        z-index: 999;
+        width: 1370px;
+        margin: 0 auto;
+      }
+      header .menu-container{
+        /*outline: 1px solid rgb(255, 63, 63); */
+        position: relative;
+        width: 1370px;
+        margin: 0 auto;
+        
+      }
+     
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /*태블릿 세로*/
+   body{
+       position: relative;
+       min-width: 1440px;
+   }
+    #main header > .header-container {
+        /* outline: 1px solid #999; */
+        display: flex;
+        padding: 0;
+        z-index: 999;
+        width: 1370px;
+        margin: 0 auto;
+      }
+      header .menu-container{
+        /*outline: 1px solid rgb(255, 63, 63); */
+        position: relative;
+        width: 698px;
+        margin: 0 auto;
+        
+      }
+      .banner .banner-container{
+        position: relative;
+       
+      
+    }
+     
+}
