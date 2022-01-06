@@ -231,9 +231,9 @@
         border-bottom: 1px solid var(--sub2-color);
     }
       .box .line .content{
-          padding-top: 15px;
+          padding-top: 10px;
           line-height: 26px;
-          display: none;
+          font-size: 8px;
       }
       .box .line .role{
         padding-top: 6px;
@@ -587,9 +587,9 @@
         border-bottom: 1px solid var(--sub2-color);
     }
       .box .line .content{
-          padding-top: 15px;
+          padding-top: 10px;
           line-height: 26px;
-          display: none;
+          font-size: 8px;
       }
       .box .line .role{
         padding-top: 6px;
