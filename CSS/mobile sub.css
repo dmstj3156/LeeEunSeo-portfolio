@@ -746,7 +746,7 @@
       height: 70px;
       z-index: 99;
       
-      background: rgba(25,89,176,0.9);
+      background: rgba(25,89,176,1);
   }
   header .header-container{
       position: relative;
