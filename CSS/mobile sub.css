@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 991px) {
-    // 테블릿 세로
+    // 테블릿 세로 모바일 가로
     body{
         font-family: 'Noto Sans KR', sans-serif;
         max-width: 991px;
@@ -19,7 +19,7 @@
           height: 70px;
           z-index: 99;
           
-          background: rgba(0,0,0,0.9);
+          background: rgba(25,89,176,0.9);
       }
       header .header-container{
           position: relative;
@@ -382,7 +382,7 @@
           height: 70px;
           z-index: 99;
           
-          background: rgba(152,0,0,0.9);
+          background: rgba(25,89,176,0.9);
       }
       header .header-container{
           position: relative;
