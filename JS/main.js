@@ -3,6 +3,7 @@ $(function(){
     $('.btn_open').on('click', function(){
       $('.gnb ').addClass('show');
       $('.btn_open').hide();
+     // $('#main').css('background-color','lightyellow');
   });
   
   // 메인메뉴 닫기
