@@ -4,13 +4,19 @@ $(function(){
       $('.gnb ').addClass('show');
       $('.btn_open').hide();
      // $('#main').css('background-color','lightyellow');
+      $('.dimmed').addClass('active');
   });
   
   // 메인메뉴 닫기
   $('.btn_close').on('click', function(){
       $('.gnb').removeClass('show');
       $('.btn_open').show();
+      $('.dimmed').removeClass('active');
   });
+
+  /*$('.depth1').hover(function(){
+    $('header').css('background-color','lightyellow');
+});*/
   
   // PC화면으로 넘어가면 모바일 메뉴 닫기
   $(window).on('resize', function(){
