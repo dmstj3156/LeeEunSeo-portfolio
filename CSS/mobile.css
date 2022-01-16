@@ -288,13 +288,13 @@
         #s1{
             position: relative;
             max-width:479px ;
-            height: 1108px;
+            height: 988px;
             background-color: var(--sub-color);
             color: #070707;
             
         }
         #s1 .container{
-        padding-bottom: 141px;
+        padding-bottom: -141px;
         }
         #s1 .container  .profile{
             display: flex;
@@ -755,13 +755,13 @@
         position: relative;
         max-width:767px ;
         min-width: 480px;
-        height: 1108px;
+        height: 408px;
         background-color: var(--sub-color);
         color: #070707;
         
     }
     #s1 .container{
-    padding-bottom: 141px;
+    padding-bottom: 41px;
     }
     #s1 .container  .profile{
         display: flex;
@@ -851,7 +851,7 @@
     }
     #s1 .container .tools .tools-col img{
         border-radius: 50%;
-        width: 70px;
+        width: 100px;
     }
     #s1 .container .tools .tools-col p{
         margin-top: 10px;
