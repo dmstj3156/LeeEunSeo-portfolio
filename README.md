@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="">사용스킬</a></li>
                         <ul>
-                            <li>>HTML5</a></li>
+                            <li>HTML5</a></li>
                             <li>CSS3</a></li>
                             <li>JavaSCript</a></li>
                                 <ul>
