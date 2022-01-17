@@ -548,7 +548,7 @@
         
         
        }
-    #main header > .header-container {
+     header > .header-container {
         /* outline: 1px solid #999; */
         display: flex;
         padding: 0;
@@ -571,7 +571,7 @@
        position: relative;
        min-width: 1440px;
    }
-    #main header > .header-container {
+     header > .header-container {
         /* outline: 1px solid #999; */
         display: flex;
         padding: 0;
