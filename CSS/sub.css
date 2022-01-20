@@ -121,7 +121,8 @@
         position: absolute;
         font-weight: bold;
         top: calc(50% - 460px/2);
-        
+        font-family: 'Anton', sans-serif;
+
     }
     .main-visual .title a{
         color: #fff;
